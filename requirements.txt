@@ -34,7 +34,6 @@ pyobjc-core==2.5.1
 pyobjc-framework-Accounts==2.5.1
 pyobjc-framework-AddressBook==2.5.1
 pyobjc-framework-AppleScriptKit==2.5.1
-pyobjc-framework-AppleScriptObjC==2.5.1
 pyobjc-framework-Automator==2.5.1
 pyobjc-framework-CFNetwork==2.5.1
 pyobjc-framework-Cocoa==2.5.1
