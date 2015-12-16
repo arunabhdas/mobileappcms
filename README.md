@@ -8,13 +8,13 @@ https://www.jeffknupp.com/blog/2012/02/09/starting-a-django-project-the-right-wa
 Steps
 -----
 
-Create project as follows 
+* Create project as follows 
 django-admin.py startproject mobileappcms
 
-Add heroku as remote as follows
+* Add heroku as remote as follows
 heroku git:remote -a mobileappcms
 
-Add polls as follows 
+* Add polls as follows 
 python manage.py startapp polls
 
 * Configure urls.py in polls
@@ -37,3 +37,11 @@ urlpatterns = [
     url(r'^polls/', include('polls.urls')),
     url(r'^admin/', admin.site.urls),
 ]
+
+* Create admin user as follows
+python manage.py createsuperuser
+
+* Run app as follows 
+python manage.py runserver
+
+
