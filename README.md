@@ -9,7 +9,9 @@ Steps
 -----
 
 Create project as follows 
-
 django-admin.py startproject mobileappcms
+
+Add heroku as remote as follows
+heroku git:remote -a mobileappcms
 
 
